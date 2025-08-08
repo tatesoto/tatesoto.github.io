@@ -3,6 +3,7 @@ import { useI18n } from '@/i18n'
 import { useTheme } from '@/theme'
 import Home from './Home'
 import Projects from './Projects'
+import ProjectDetail from './ProjectDetail'
 import Skills from './Skills'
 import Experience from './Experience'
 import Contact from './Contact'
@@ -61,6 +62,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:slug" element={<ProjectDetail />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />

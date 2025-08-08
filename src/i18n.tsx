@@ -21,8 +21,8 @@ const dictionaries: Dictionaries = {
     nav_skills: 'Skills',
     nav_experience: 'Experience',
     nav_contact: 'Contact',
-    hero_title: 'Software Engineer / Competitive Programmer',
-    hero_sub: 'Algorithms, TypeScript/React, and ML.'
+    hero_title: 'WIP',
+    hero_sub: 'WIP'
   }
 }
 
