@@ -8,6 +8,8 @@ import Skills from './Skills'
 import Experience from './Experience'
 import Contact from './Contact'
 import clsx  from 'clsx'
+import Achievements from './Achievements'
+import Certifications from './Certifications'
 
 function Nav() {
   const { t, lang, setLang } = useI18n()
@@ -23,6 +25,8 @@ function Nav() {
             ['/projects', t('nav_projects')],
             ['/skills', t('nav_skills')],
             ['/experience', t('nav_experience')],
+            ['/achievements', t('nav_achievements')],
+            ['/certifications', t('nav_certifications')],
             ['/contact', t('nav_contact')],
           ].map(([to, label]) => (
             <NavLink
@@ -65,6 +69,8 @@ export default function App() {
           <Route path="/projects/:slug" element={<ProjectDetail />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/certifications" element={<Certifications />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
