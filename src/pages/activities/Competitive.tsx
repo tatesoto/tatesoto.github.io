@@ -41,7 +41,6 @@ export default function Competitive() {
               className="h-5"
               loading="lazy"
             />
-            <span className="text-xs text-slate-500">Highest</span>
           </li>
 
           {/* Codeforces */}
@@ -56,7 +55,6 @@ export default function Competitive() {
               className="h-5"
               loading="lazy"
             />
-            <span className="text-xs text-slate-500">Highest</span>
           </li>
 
           {/* 所属（KCPC） */}
