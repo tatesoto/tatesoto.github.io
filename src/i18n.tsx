@@ -8,25 +8,25 @@ type Dictionaries = Record<Lang, Dict>
 const dictionaries: Dictionaries = {
   ja: {
     nav_home: 'ホーム',
-    nav_projects: 'プロジェクト',
+    nav_activities: '活動',
     nav_skills: 'スキル',
     nav_achievements: '実績',
     nav_certifications: '資格',
     nav_experience: '経歴',
     nav_contact: '連絡',
-    hero_title: 'WIP',
-    hero_sub: 'WIP'
+    hero_title: 'tatesotoの自己紹介ページです．',
+    hero_sub: '競技プログラミングやソフトウェアエンジニアリングをしています．'
   },
   en: {
     nav_home: 'Home',
-    nav_projects: 'Projects',
+    nav_activities: 'Activities',
     nav_skills: 'Skills',
     nav_achievements: 'Achievements',
     nav_certifications: 'Certifications',
     nav_experience: 'Experience',
     nav_contact: 'Contact',
-    hero_title: 'WIP',
-    hero_sub: 'WIP'
+    hero_title: 'About Me',
+    hero_sub: 'Competitive programming and software engineering.'
   }
 }
 

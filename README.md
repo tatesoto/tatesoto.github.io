@@ -1,4 +1,4 @@
-# Yuya Yokouchi — GitHub Pages (Vite + React + TS)
+# tatesoto — GitHub Pages (Vite + React + TS)
 
 GitHub Pages の **ユーザーサイト**（リポジトリ名: `tatesoto.github.io`）で公開する、Vite + React + TypeScript のポートフォリオ。
 - Tailwind（`darkMode: 'class'`）で**ダーク/ライト切替**
