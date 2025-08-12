@@ -11,7 +11,7 @@ import Certifications from './Certifications'
 import ActivitiesLayout from './activities/Layout'
 import ActivitiesIndex from './activities/Index'
 import Competitive from './activities/Competitive'
-import CompetitiveSpec from './activities/CompetitiveSpec'
+import Frontend from './activities/FrontEnd'
 
 function Nav() {
   const { t, lang, setLang } = useI18n()
@@ -70,7 +70,7 @@ export default function App() {
           <Route path="/activities" element={<ActivitiesLayout />}>
             <Route index element={<ActivitiesIndex />} />
             <Route path="competitive" element={<Competitive />} />
-            <Route path="competitivespec" element={<CompetitiveSpec />} />
+            <Route path="frontend" element={<Frontend />} />
           </Route>
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
