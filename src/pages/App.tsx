@@ -2,14 +2,16 @@ import { Link, NavLink, Route, Routes } from 'react-router-dom'
 import { useI18n } from '@/i18n'
 import { useTheme } from '@/theme'
 import Home from './Home'
-import Projects from './Projects'
-import ProjectDetail from './ProjectDetail'
 import Skills from './Skills'
 import Experience from './Experience'
 import Contact from './Contact'
 import clsx  from 'clsx'
 import Achievements from './Achievements'
 import Certifications from './Certifications'
+import ActivitiesLayout from './activities/Layout'
+import ActivitiesIndex from './activities/Index'
+import Competitive from './activities/Competitive'
+import CompetitiveSpec from './activities/CompetitiveSpec'
 
 function Nav() {
   const { t, lang, setLang } = useI18n()
@@ -18,11 +20,11 @@ function Nav() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200/50 dark:border-slate-700/50 backdrop-blur bg-white/80 dark:bg-slate-900/70">
       <div className="mx-auto max-w-5xl px-4 py-3 flex items-center gap-3">
-        <Link to="/" className="font-bold text-sky-600 dark:text-sky-400">Yuya Yokouchi</Link>
+        <Link to="/" className="font-bold text-sky-600 dark:text-sky-400">tatesoto's Page</Link>
         <nav className="ml-auto flex items-center gap-4 text-sm">
           {[
             ['/', t('nav_home')],
-            ['/projects', t('nav_projects')],
+            ['/activities', t('nav_activities')],
             ['/skills', t('nav_skills')],
             ['/experience', t('nav_experience')],
             ['/achievements', t('nav_achievements')],
@@ -65,8 +67,11 @@ export default function App() {
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:slug" element={<ProjectDetail />} />
+          <Route path="/activities" element={<ActivitiesLayout />}>
+            <Route index element={<ActivitiesIndex />} />
+            <Route path="competitive" element={<Competitive />} />
+            <Route path="competitivespec" element={<CompetitiveSpec />} />
+          </Route>
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/achievements" element={<Achievements />} />
@@ -76,7 +81,7 @@ export default function App() {
       </main>
       <footer className="border-t border-slate-200/50 dark:border-slate-700/50">
         <div className="mx-auto max-w-5xl px-4 py-6 text-sm text-slate-500">
-          © {new Date().getFullYear()} Yuya Yokouchi
+          © {new Date().getFullYear()} tatesoto
         </div>
       </footer>
     </div>

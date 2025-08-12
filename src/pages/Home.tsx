@@ -1,21 +1,19 @@
 import { Link } from 'react-router-dom'
 import { useI18n } from '@/i18n'
-import { projects } from '@/data/projects'
 import { achievements } from '@/data/achievements'
 import { certifications } from '@/data/certifications'
 import { strengths } from '@/data/strengths'
+import { activitiesIndex } from '@/data/activitiesIndex'
 
 export default function Home() {
   const { t } = useI18n()
-  const featured = projects.slice(0, 3)
 
   return (
     <div>
       {/* Hero */}
       <section className="mx-auto max-w-5xl px-4 py-14">
-        <p className="text-sm text-slate-500">Portfolio</p>
         <h1 className="mt-1 text-3xl md:text-5xl font-bold tracking-tight">
-          Yuya Yokouchi
+          tatesoto's Page
         </h1>
         <p className="mt-3 text-lg text-slate-700 dark:text-slate-300">
           {t('hero_title')}
@@ -38,10 +36,10 @@ export default function Home() {
         {/* CTAs */}
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
-            to="/projects"
+            to="/activities"
             className="inline-flex items-center rounded-lg bg-sky-600 hover:bg-sky-700 text-white px-4 py-2"
           >
-            プロジェクトを見る
+            活動を見る
           </Link>
           <a
             className="inline-flex items-center rounded-lg border px-4 py-2 hover:bg-slate-50 dark:hover:bg-slate-800"
@@ -62,26 +60,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Projects */}
+      {/* Activities */}
       <section className="mx-auto max-w-5xl px-4 pb-6">
         <div className="flex items-end justify-between">
-          <h2 className="text-2xl font-bold">注目プロジェクト</h2>
-          <Link to="/projects" className="text-sm underline">すべて見る →</Link>
+          <h2 className="text-2xl font-bold">活動ダイジェスト</h2>
+          <a href="/activities" className="text-sm underline">すべて見る →</a>
         </div>
-
         <div className="mt-5 grid md:grid-cols-3 gap-6">
-          {featured.map((p) => (
-            <Link
-              key={p.slug}
-              to={`/projects/${p.slug}`}
-              className="block rounded-xl border p-5 hover:shadow-lg transition"
-            >
-              <div className="font-semibold">{p.title}</div>
-              <div className="text-xs mt-1 text-slate-500">{p.tech.join(' / ')}</div>
-              <p className="mt-2 text-sm text-slate-700 dark:text-slate-300 line-clamp-3">
-                {p.description}
-              </p>
-            </Link>
+          {activitiesIndex.slice(0,3).map((a) => (
+            <a key={a.slug} href={`/activities/${a.slug}`} className="block rounded-xl border p-5 hover:shadow-lg transition">
+              <div className="font-semibold">{a.icon} {a.title}</div>
+              <p className="mt-2 text-sm text-slate-700 dark:text-slate-300 line-clamp-3">{a.summary}</p>
+            </a>
           ))}
         </div>
       </section>
@@ -207,7 +197,7 @@ export default function Home() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Person',
-            name: 'Yuya Yokouchi',
+            name: 'tatesoto',
             url: 'https://tatesoto.github.io/',
             hasCredential: certifications.map(c => ({
               '@type': 'EducationalOccupationalCredential',

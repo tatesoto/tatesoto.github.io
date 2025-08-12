@@ -14,6 +14,8 @@
       ]
     }
   },
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "npm ci",
+  "forwardPorts": [5173],
+  "portsAttributes": { "5173": { "label": "Vite dev server" } },
   "remoteUser": "node"
 }
