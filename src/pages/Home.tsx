@@ -117,7 +117,7 @@ export default function Home() {
       </section>
 
       {/* Skills / Strengths */}
-      <section className="mx-auto max-w-5xl px-4 py-10">
+      {/* <section className="mx-auto max-w-5xl px-4 py-10">
         <div className="flex items-end justify-between">
           <h2 className="text-2xl font-bold">得意領域</h2>
           <Link to="/skills" className="text-sm underline">スキル詳細 →</Link>
@@ -156,7 +156,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Contact CTA */}
       <section className="mx-auto max-w-5xl px-4 pb-16">
