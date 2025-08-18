@@ -6,7 +6,7 @@ export default function ActivitiesLayout() {
     { to: '/activities', label: '要約' },
     { to: '/activities/competitive', label: '競技プログラミング' },
     { to: '/activities/frontend', label: 'フロントエンド' },
-    { to: '/activities/other', label: 'その他' },
+    { to: '/activities/others', label: 'その他' },
   ]
   return (
     <section className="mx-auto max-w-5xl px-4 py-12">

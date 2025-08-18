@@ -43,8 +43,9 @@ export const strengths: Strength[] = [
     title: '機械学習，データ分析',
     oneLiner: 'Pythonを用いたデータ分析とモデル構築。',
     bullets: [
-      'Pandas + NumPy で **データ前処理を効率化**',
-      'LightGBM で **高精度なモデルを構築**',
+      '統計検定１級の知識をもとに，データの統計的処理',
+      'Pandas + NumPy で データ前処理を効率化',
+      'LightGBM で 高精度なモデルを構築',
     ],
     links: [
       { label: '実績（ML）', to: '/achievements' },

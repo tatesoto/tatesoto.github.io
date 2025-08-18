@@ -1,6 +1,5 @@
 import { feProjects, FEProject } from '@/data/frontend'
 
-// Simple Icons の slug に揃える（既存データはそのままでOK）
 const slugify = (id: string) => {
     const s = id.toLowerCase().replace(/\s+/g, '').replace(/_/g, '')
     const map: Record<string, string> = {
@@ -177,7 +176,7 @@ export default function Frontend() {
             >
             <h1>フロントエンド</h1>
             <p>
-            プロジェクトごとに概要・技術スタック・ハイライトをまとめています。
+            プロジェクトごとに概要・技術スタック・ハイライトをまとめています．
             </p>
 
             <h2 id="projects">Projects</h2>
