@@ -1,5 +1,5 @@
 export type ActivityMeta = {
-  slug: 'competitive' | 'frontend' | 'other'
+  slug: 'competitive' | 'frontend' | 'others'
   title: string
   summary: string
   icon?: string
@@ -24,7 +24,7 @@ export const activitiesIndex: ActivityMeta[] = [
     updated: '2025-08',
   },
   {
-    slug: 'other',
+    slug: 'others',
     title: 'その他',
     summary:
       '技術ブログ(Zenn)など．',
