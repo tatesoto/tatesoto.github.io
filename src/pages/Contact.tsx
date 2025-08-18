@@ -8,6 +8,9 @@ export default function Contact() {
       <p>
         X(旧Twitter): <a className="text-sky-600 dark:text-sky-400" href="https://x.com/coder_tatesoto">@coder_tatesoto</a>
       </p>
+      <p>
+        LinkedIn: <a className="text-sky-600 dark:text-sky-400" href="https://www.linkedin.com/in/yuya-yokouchi/">Yuya Yokouchi</a>
+      </p>
     </section>
   )
 }
