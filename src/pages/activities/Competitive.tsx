@@ -128,7 +128,7 @@ export default function Competitive() {
                 </tr>
                 <tr className="align-top">
                   <td className="py-2 pr-4">Range Add Range Min</td>
-                  <td className="py-2 pr-4">原案 &amp; Writer</td>
+                  <td className="py-2 pr-4">Writer</td>
                   <td className="py-2">
                     <a className="underline" href="https://judge.yosupo.jp/problem/range_add_range_min" target="_blank" rel="noreferrer">
                       問題
