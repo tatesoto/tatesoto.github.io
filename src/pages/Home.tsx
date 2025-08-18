@@ -49,14 +49,6 @@ export default function Home() {
           >
             GitHub
           </a>
-          <a
-            className="inline-flex items-center rounded-lg border border-sky-500 px-4 py-2 text-sky-600 hover:bg-sky-50 dark:text-sky-300 dark:hover:bg-slate-800"
-            href="https://example.com/resume.pdf" // ← 履歴書の実URLに差し替え
-            target="_blank"
-            rel="noreferrer"
-          >
-            履歴書（PDF）
-          </a>
         </div>
       </section>
 
@@ -125,7 +117,7 @@ export default function Home() {
       </section>
 
       {/* Skills / Strengths */}
-      <section className="mx-auto max-w-5xl px-4 py-10">
+      {/* <section className="mx-auto max-w-5xl px-4 py-10">
         <div className="flex items-end justify-between">
           <h2 className="text-2xl font-bold">得意領域</h2>
           <Link to="/skills" className="text-sm underline">スキル詳細 →</Link>
@@ -164,14 +156,14 @@ export default function Home() {
             </article>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Contact CTA */}
       <section className="mx-auto max-w-5xl px-4 pb-16">
         <div className="rounded-2xl border p-6 md:p-8">
           <h3 className="text-xl font-semibold">お仕事・ご相談の連絡</h3>
           <p className="mt-2 text-slate-600 dark:text-slate-300">
-            学業・開発状況に応じて、開発・実装・検証など対応可能です。
+            学業・開発状況に応じて、開発・実装・作問など対応可能です。
           </p>
           <div className="mt-4 flex gap-3">
             <Link

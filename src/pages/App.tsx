@@ -3,7 +3,6 @@ import { useI18n } from '@/i18n'
 import { useTheme } from '@/theme'
 import Home from './Home'
 import Skills from './Skills'
-import Experience from './Experience'
 import Contact from './Contact'
 import clsx  from 'clsx'
 import Achievements from './Achievements'
@@ -12,6 +11,7 @@ import ActivitiesLayout from './activities/Layout'
 import ActivitiesIndex from './activities/Index'
 import Competitive from './activities/Competitive'
 import Frontend from './activities/FrontEnd'
+import Others from './activities/Others'
 
 function Nav() {
   const { t, lang, setLang } = useI18n()
@@ -26,7 +26,6 @@ function Nav() {
             ['/', t('nav_home')],
             ['/activities', t('nav_activities')],
             ['/skills', t('nav_skills')],
-            ['/experience', t('nav_experience')],
             ['/achievements', t('nav_achievements')],
             ['/certifications', t('nav_certifications')],
             ['/contact', t('nav_contact')],
@@ -71,9 +70,9 @@ export default function App() {
             <Route index element={<ActivitiesIndex />} />
             <Route path="competitive" element={<Competitive />} />
             <Route path="frontend" element={<Frontend />} />
+            <Route path="others" element={<Others />} />
           </Route>
           <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/contact" element={<Contact />} />
