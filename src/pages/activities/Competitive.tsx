@@ -126,6 +126,19 @@ export default function Competitive() {
                     </a>
                   </td>
                 </tr>
+                <tr className="align-top">
+                  <td className="py-2 pr-4">Range Add Range Min</td>
+                  <td className="py-2 pr-4">原案 &amp; Writer</td>
+                  <td className="py-2">
+                    <a className="underline" href="https://judge.yosupo.jp/problem/range_add_range_min" target="_blank" rel="noreferrer">
+                      問題
+                    </a>
+                    ，
+                    <a className="underline" href="https://github.com/yosupo06/library-checker-problems/issues/1341" target="_blank" rel="noreferrer">
+                      Forum
+                    </a>
+                  </td>
+                </tr>
               </tbody>
             </table>
         </div>
