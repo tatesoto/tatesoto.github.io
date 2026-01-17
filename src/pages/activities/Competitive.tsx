@@ -73,6 +73,20 @@ export default function Competitive() {
           <ol className="relative not-prose list-none border-l border-slate-300 dark:border-slate-700 pl-6 space-y-6 text-[0.95rem]">
             <li className="relative">
               <span className="absolute -left-3 top-2 h-2 w-2 rounded-full bg-sky-600" />
+              <div className="font-semibold">2025 Asia Yokohama Regional Contest — bogosort</div>
+              <div>
+                結果：5位．Asia Pacific Championship 進出（
+                <a className="underline" href="https://storage.googleapis.com/files.icpc.jp/regional2025/standings.html" target="_blank" rel="noreferrer">
+                  順位表
+                </a>
+                ）
+              </div>
+              <div className="text-slate-600 dark:text-slate-300">
+                役割：ライブラリ整備，テスト作成，デバッグ支援，幾何・パズル系問題担当
+              </div>
+            </li>
+            <li className="relative">
+              <span className="absolute -left-3 top-2 h-2 w-2 rounded-full bg-sky-600" />
               <div className="font-semibold">2025 国内予選 — bogosort</div>
               <div>
                 結果：12位．アジア地区横浜大会進出（
@@ -189,24 +203,6 @@ export default function Competitive() {
             </table>
         </div>
 
-        
-
-        <h2 id="libraries">ライブラリ</h2>
-        <h3>計算幾何学ライブラリ</h3>
-        <p>
-          有理数をサポート。点・直線・線分・円・多角形・凸多角形の各クラスと高度アルゴリズムを実装。
-          AOJ・Library Checker で verify。チーム向けの使いやすいインターフェースとドキュメントを整備。
-          <br />
-          <span className="text-slate-500">※ アジア地区大会を控えているため，現在は非公開（チーム内運用）。</span>
-        </p>
-        <h3>平衡二分探索木</h3>
-        <p>
-          Explicit Treap / Implicit Treap を実装。Library Checker で verify。
-          用途に応じたテンプレ化（split/merge，遅延伝播など）。
-          <br />
-          <span className="text-slate-500">※ 大会終了後に公開予定。</span>
-        </p>
-
         <h2 id="cta">作問・コラボの募集</h2>
         <p>
           競技プログラミングの作問作業(WriterやTester)などのご相談を受け付けています。
@@ -215,9 +211,6 @@ export default function Competitive() {
           <Link to="/contact" className="inline-flex items-center rounded-lg bg-sky-600 hover:bg-sky-700 text-white px-4 py-2">
             連絡フォームへ
           </Link>
-          <a href="mailto:example@example.com" className="inline-flex items-center rounded-lg border px-4 py-2 hover:bg-slate-50 dark:hover:bg-slate-800">
-            メールで相談
-          </a>
         </div>
       </article>
 

@@ -14,6 +14,65 @@ export type Achievemet = {
 
 export const achievements: Achievemet[] = [
     {
+        id: 'icpc-2025-yokohama',
+        title: 'ICPC 2025 Yokohama Regional Contest 5位 Asia Pacific Championship 進出決定',
+        org: 'ICPC 2025 横浜大会 実行委員会',
+        date: '2025-12-06,07',
+        summary: 'チーム「bogosort」として出場し，ライブラリ整備や幾何・パズル系問題を担当．',
+        details: [
+            'チームメンバーと過去問題の本番演習をかなり強化して行った．',
+            '持ち込み用ライブラリの整備を担当．高度データ構造の実装を行った．',
+            '2026年3月に開催されるAsia Pacific Championshipへの進出が決定した．',
+        ],
+        tags: ['ICPC', '競技プログラミング'],
+        links: [
+            {
+                label: 'The 2025 ICPC Asia Yokohama Regional Contest',
+                url: 'https://icpc.jp/2025/regional/'
+            }
+        ]
+    },
+    {
+        id: 'JPHACKS',
+        title: 'JPHACKS 2025 AwardDay進出＆innovator認定',
+        org: 'JPHACKS 実行委員会',
+        date: '2025-10-18, 19, 11-09',
+        summary: 'OS_2504(million遍)として出場．飲食店探しアプリ「Mogufinder」を開発し，AwardDay進出，innovator認定を獲得．',
+        details: [
+            'ログイン不要・リンクの共有のみで，複数人の飲食店の合意形成を支援するWebアプリ．',
+            '最寄りの各飲食店候補について，好み度を4択で決定していくだけで，簡単に店選びができる．',
+            'ユーザ負荷の軽減を追求．',
+            'TypeScript + React を用いてフロントエンドを開発．バックエンドは Google Cloud を利用．',
+        ],
+        tags: ['チーム開発', 'TypeScript', 'React', 'Google Cloud'],
+        links: [
+            {
+                label: '公式イベントレポート',
+                url: 'https://jphacks.com/information/result-report2025/'
+            },
+        ]
+    },
+    {
+        id: 'EGH-3',
+        title: '第3回 Engineer Guild Hackathon 決勝進出',
+        org: 'Engineer Guild',
+        date: '2025-09-06~20',
+        summary: 'チーム3(devNeko)として出場．AIを活用した学習支援アプリSPARを開発し，決勝進出．',
+        details: [
+            '従来の学習支援アプリとは異なり，AIを生徒役におき，ユーザが先生となって教える中で理解を深めるアプリ．',
+            '通知がランダムに届くことで，学習のトリガーを増やす仕組みを導入．',
+            'TypeScript + React, インフラは Azure を用いてフロントエンドを開発．',
+            'React Nativeを用いたモバイルアプリ開発にも挑戦．'
+        ],
+        tags: ['チーム開発', 'TypeScript', 'React', 'Azure', 'React Native'],
+        links: [
+            {
+                label: 'GitHub',
+                url: 'https://github.com/Engineer-Guild-Hackathon/team-3-app'
+            }
+        ]
+    },
+    {
         id: 'icpc-2025-domestic',
         title: 'ICPC 2025 国内予選 12位 アジア地区横浜大会進出',
         org: 'ICPC 2025 横浜大会 実行委員会',
@@ -22,7 +81,6 @@ export const achievements: Achievemet[] = [
         details: [
             'チームメンバーと過去問題の本番演習を何回も行った．',
             '得意ジャンルをもとに問題を分担し，私は計算幾何やデータ構造のライブラリを整備した．',
-            '2025/12/6-7 に行われるアジア地区横浜大会に出場予定．'
         ],
         tags: ['ICPC', '競技プログラミング'],
         links: [
