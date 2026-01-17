@@ -19,9 +19,9 @@ export const activitiesIndex: ActivityMeta[] = [
     slug: 'frontend',
     title: 'フロントエンド',
     summary:
-      '個人用ページの作成．Vite + React + TypeScript．',
+      '主に，TypeScript + React を用いた開発．個人ポートフォリオサイトや競技プログラミング幾何可視化ツールを開発．',
     icon: '🧩',
-    updated: '2025-08',
+    updated: '2026-01',
   },
   {
     slug: 'others',

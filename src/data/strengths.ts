@@ -16,6 +16,7 @@ export const strengths: Strength[] = [
     oneLiner: '高度なアルゴリズムを駆使した問題解決力。',
     bullets: [
       'AtCoder/Codeforces.',
+      'ICPC',
     ],
     links: [
       { label: '活動', to: '/activities/competitive' },
@@ -29,7 +30,6 @@ export const strengths: Strength[] = [
     oneLiner: '拡張容易な設計とアクセシビリティを両立。',
     bullets: [
       'Vite + React + Tailwind 構成でポートフォリオサイトを作成．',
-      'WIP',
     ],
     links: [
       { label: 'このサイト', to: '/' },
