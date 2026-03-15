@@ -73,6 +73,20 @@ export default function Competitive() {
           <ol className="relative not-prose list-none border-l border-slate-300 dark:border-slate-700 pl-6 space-y-6 text-[0.95rem]">
             <li className="relative">
               <span className="absolute -left-3 top-2 h-2 w-2 rounded-full bg-sky-600" />
+              <div className="font-semibold">2026 ICPC Asia Pacific Championship — bogosort</div>
+              <div>
+                結果：5位．World Finals 進出（
+                <a className="underline" href="https://icpc.global/regionals/finder/APSEPC-2026/standings" target="_blank" rel="noreferrer">
+                  順位表
+                </a>
+                ）
+              </div>
+              <div className="text-slate-600 dark:text-slate-300">
+                役割：ライブラリ整備，テスト作成，デバッグ支援，幾何・パズル系問題担当
+              </div>
+            </li>
+            <li className="relative">
+              <span className="absolute -left-3 top-2 h-2 w-2 rounded-full bg-sky-600" />
               <div className="font-semibold">2025 Asia Yokohama Regional Contest — bogosort</div>
               <div>
                 結果：5位．Asia Pacific Championship 進出（
