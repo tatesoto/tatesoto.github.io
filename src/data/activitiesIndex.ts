@@ -11,7 +11,7 @@ export const activitiesIndex: ActivityMeta[] = [
     slug: 'competitive',
     title: '競技プログラミング',
     summary:
-      'AtCoder・Codeforces．ICPC 国内予選 2025:12位（bogosort, アジア横浜進出）/ 2024:16位．作問(KCPC, Library Checker)．幾何・データ構造のライブラリ整備．',
+      'AtCoder・Codeforces．ICPC Asia Pacific Championship 2026 5位 WF進出(team: bogosort)．作問(KCPC, Library Checker)．ライブラリ整備．',
     icon: '🏁',
     updated: '2025-07',
   },

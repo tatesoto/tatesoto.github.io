@@ -14,6 +14,24 @@ export type Achievemet = {
 
 export const achievements: Achievemet[] = [
     {
+        id: 'icpc-2026-taiwan',
+        title: '2026 ICPC Asia Pacific Championship 5位 World Finals 進出決定',
+        date: '2026-03-06,09',
+        summary: 'チーム「bogosort」として出場し，ライブラリ整備や幾何・パズル系問題を担当．',
+        details: [
+            'チームメンバーと過去問題の本番演習をかなり強化して行った．',
+            '持ち込み用ライブラリの整備を担当．高度データ構造の実装を行った．',
+            '2026年11月に開催予定のWorld Finalsへの進出が決定した．',
+        ],
+        tags: ['ICPC', '競技プログラミング'],
+        links: [
+            {
+                label: 'The 2026 ICPC Asia Pacific Championship',
+                url: 'https://apac.icpc.global/championship/2026/competition/'
+            }
+        ]
+    },
+    {
         id: 'icpc-2025-yokohama',
         title: 'ICPC 2025 Yokohama Regional Contest 5位 Asia Pacific Championship 進出決定',
         org: 'ICPC 2025 横浜大会 実行委員会',
