@@ -5,7 +5,6 @@ export default function Competitive() {
     { href: '#about', label: 'About Me' },
     { href: '#icpc', label: 'ICPC' },
     { href: '#problemsetting', label: '作問' },
-    { href: '#libraries', label: 'ライブラリ' },
     { href: '#cta', label: '相談・募集' },
   ]
 
@@ -171,21 +170,21 @@ export default function Competitive() {
             </table>
         </div>
 
-        <h3 id="othercontests">その他のコンテスト</h3>
+        <h3 id="othercontests">その他の作問</h3>
           <div className="not-prose mt-5 overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="text-slate-500 border-b">
                 <tr>
-                  <th className="text-left py-2 pr-4">大会</th>
                   <th className="text-left py-2 pr-4">問題</th>
+                  <th className="text-left py-2 pr-4">コンテスト</th>
                   <th className="text-left py-2 pr-4">役割</th>
                   <th className="text-left py-2">リンク</th>
                 </tr>
               </thead>
               <tbody className="divide-y">
                 <tr className="align-top">
-                  <td className="py-2 pr-4">KUPC 2024</td>
                   <td className="py-2 pr-4">F - Find x</td>
+                  <td className="py-2 pr-4">KUPC 2024</td>
                   <td className="py-2 pr-4">原案</td>
                   <td className="py-2">
                     <a className="underline" href="https://atcoder.jp/contests/kupc2024/tasks/kupc2024_f" target="_blank" rel="noreferrer">
@@ -194,8 +193,8 @@ export default function Competitive() {
                   </td>
                 </tr>
                 <tr className="align-top">
-                  <td className="py-2 pr-4">KCPC新歓杯 - Happy Birthday physics0523 -</td>
                   <td className="py-2 pr-4">B - Count That Day&apos;s N</td>
+                  <td className="py-2 pr-4">KCPC新歓杯 - Happy Birthday physics0523 -</td>
                   <td className="py-2 pr-4">原案 &amp; Writer</td>
                   <td className="py-2">
                     <a className="underline" href="https://yukicoder.me/problems/no/3156" target="_blank" rel="noreferrer">
@@ -204,11 +203,41 @@ export default function Competitive() {
                   </td>
                 </tr>
                 <tr className="align-top">
-                  <td className="py-2 pr-4">KCPC新歓杯（競プロ体験会の部）</td>
                   <td className="py-2 pr-4">2 - Physics Birthday</td>
+                  <td className="py-2 pr-4">KCPC新歓杯（競プロ体験会の部）</td>
                   <td className="py-2 pr-4">原案 &amp; Writer</td>
                   <td className="py-2">
                     <a className="underline" href="https://mojacoder.app/users/kencho/contests/kcpc_welcome_2025/tasks/2" target="_blank" rel="noreferrer">
+                      mojacoder
+                    </a>
+                  </td>
+                </tr>
+                <tr className="align-top">
+                  <td className="py-2 pr-4">I - Xor Magic Square</td>
+                  <td className="py-2 pr-4">KUPC 2025</td>
+                  <td className="py-2 pr-4">原案 &amp; Writer</td>
+                  <td className="py-2">
+                    <a className="underline" href="https://qoj.ac/contest/3575/problem/17721" target="_blank" rel="noreferrer">
+                      The 4th Universal Cup. Stage 22: Grand Prix of Kyoto
+                    </a>
+                  </td>
+                </tr>
+                <tr className="align-top">
+                  <td className="py-2 pr-4">ZDD Maze</td>
+                  <td className="py-2 pr-4">湊研究室welcome問題</td>
+                  <td className="py-2 pr-4">原案 &amp; Writer</td>
+                  <td className="py-2">
+                    <a className="underline" href="https://mojacoder.app/users/tatesoto/contests/welcome-minato-lab/tasks/1" target="_blank" rel="noreferrer">
+                      mojacoder
+                    </a>
+                  </td>
+                </tr>
+                <tr className="align-top">
+                  <td className="py-2 pr-4">3 7 10</td>
+                  <td className="py-2 pr-4">湊研究室welcome問題</td>
+                  <td className="py-2 pr-4">原案 &amp; Writer</td>
+                  <td className="py-2">
+                    <a className="underline" href="https://mojacoder.app/users/tatesoto/contests/welcome-minato-lab/tasks/2" target="_blank" rel="noreferrer">
                       mojacoder
                     </a>
                   </td>

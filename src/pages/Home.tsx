@@ -46,10 +46,10 @@ export default function Home() {
 
             <div className="mt-4 space-y-1 text-slate-700 dark:text-slate-300">
               <ul className="list-disc list-inside space-y-1">
-                <li>所属：京都大学工学部情報学科計算機科学コース．2026年春卒業，同大学大学院へ進学予定．</li>
-                <li>研究：マルチエージェント経路計画(MAPF)</li>
-                <li>情報系コミュニティ：京都大学競技プログラミングサークル(KCPC)</li>
-                <li>得意領域：アルゴリズム，統計学・機械学習</li>
+                <li>所属：京都大学大学院情報学研究科 通信情報システムコース</li>
+                <li>研究室：コンピュータアルゴリズム分野 湊研究室</li>
+                <li>情報系コミュニティ：京都大学競技プログラミングサークル（KCPC）</li>
+                <li>興味：アルゴリズム，統計学・機械学習，セキュリティ</li>
               </ul>
             </div>
 
